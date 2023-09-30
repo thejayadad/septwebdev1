@@ -1,0 +1,54 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    font-family: monospace;
+    background-color: black;
+}
+
+h2{
+    font-size: 8px;
+    color: white;
+    margin-bottom: -5px;
+}
+
+button{
+    position: relative;
+    width: 100px;
+    padding: 7px 0;
+    text-align: center;
+    margin: 10px 5px;
+    font-weight: bold;
+    border: 2px solid orangered;
+    background: transparent;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+
+    border-radius: 20px;
+}
+
+span{
+    background-color: orangered;
+    height: 100%;
+    width: 0;
+    position: absolute;
+    left: 0 ;
+    bottom: 0;
+    z-index: -1;
+    transition: .5s;
+}
+
+button:hover span{
+    width: 100%;
+}
