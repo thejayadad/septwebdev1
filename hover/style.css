@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +12,6 @@ body {
     height: 100vh;
     margin: 0;
     background-color: black;
-    font-family: monospace;
     flex-direction: column;
 }
 h2{
@@ -21,10 +21,19 @@ h2{
     margin-bottom: 20px;
 }
 
-
-button{
+button {
     padding: 5px 10px;
     font-size: 8px;
-    ba
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan;
+}
+
+button:hover {
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
 
 }
