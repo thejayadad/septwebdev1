@@ -1,8 +1,8 @@
 const navLinks = [
-    { text: 'Home', url: 'index.html' },
-    { text: 'About', url: 'about.html' },
-    { text: 'Services', url: 'services.html' },
-    { text: 'Contact', url: 'contact.html' }
+    { text: 'Home' },
+    { text: 'About'},
+    { text: 'Services'},
+    { text: 'Contact' }
 ];
 
 function createNavbar() {
@@ -12,8 +12,6 @@ function createNavbar() {
         const listItem = document.createElement('li');
         const anchor = document.createElement('a');
         anchor.textContent = link.text;
-        anchor.href = link.url;
-
         listItem.appendChild(anchor);
         navbar.appendChild(listItem);
     });
