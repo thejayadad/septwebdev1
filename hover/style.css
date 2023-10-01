@@ -21,7 +21,9 @@ h2{
     margin-bottom: 20px;
 }
 
-button {
+
+
+button{
     padding: 5px 10px;
     font-size: 8px;
     background-color: transparent;
@@ -29,11 +31,10 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    transition: box-shadow 0.3s;
+    transition: box-shadow .3s;
     box-shadow: 0 0 5px cyan, 0 0 25px cyan;
 }
 
-button:hover {
-    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
-
+button:hover{
+    box-shadow: 0 0 5px cyan, 0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 25px cyan;
 }
