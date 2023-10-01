@@ -22,6 +22,8 @@ h2{
     margin-bottom: -5px;
 }
 
+
+
 button{
     position: relative;
     width: 100px;
@@ -34,21 +36,18 @@ button{
     cursor: pointer;
     overflow: hidden;
     color: white;
-
     border-radius: 20px;
 }
-
 span{
     background-color: orangered;
     height: 100%;
     width: 0;
     position: absolute;
-    left: 0 ;
+    left: 0;
     bottom: 0;
     z-index: -1;
     transition: .5s;
 }
-
 button:hover span{
     width: 100%;
 }
