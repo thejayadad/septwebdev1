@@ -5,16 +5,15 @@ const navLinks = [
     { text: 'Contact' }
 ];
 
-function createNavbar() {
-    const navbar = document.getElementById('navbar');
 
+function createNavbar(){
+    const navbar = document.getElementById('navbar')
     navLinks.forEach(link => {
-        const listItem = document.createElement('li');
-        const anchor = document.createElement('a');
+        const listItem = document.createElement('li')
+        const anchor = document.createElement('a')
         anchor.textContent = link.text;
-        listItem.appendChild(anchor);
-        navbar.appendChild(listItem);
-    });
+        listItem.appendChild(anchor)
+        navbar.appendChild(listItem)
+    })
 }
-
-createNavbar();
+createNavbar()

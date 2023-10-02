@@ -6,14 +6,16 @@
 body{
     background: black;
 }
-nav {
-    background-color: #222;
+
+nav{
+    background-attachment: #222;
     color: white;
     padding: 10px 0;
     text-align: center;
 }
 
-nav ul {
+
+nav ul{
     list-style-type: none;
     padding: 0;
     max-width: 500px;
@@ -23,12 +25,11 @@ nav ul {
 nav li {
     display: inline;
     margin-right: 5px;
-
 }
 
-nav a {
+
+nav a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
     font-size: 8px;
 }
