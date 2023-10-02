@@ -1,5 +1,4 @@
 
-
 function welcome(){
-    window.open('https://www.espn.com')
+    window.open("https://www.espn.com")
 }
