@@ -1,8 +1,9 @@
-function toggleText() {
-    const hiddenText = document.getElementById("hidden-text");
-    if (hiddenText.style.display === "none") {
-        hiddenText.style.display = "block";
+
+function toggletext(){
+    const hiddentext = document.getElementById('hidden-text')
+    if(hiddentext.style.display === 'none'){
+        hiddentext.style.display = "block";
     } else {
-        hiddenText.style.display = "none";
+        hiddentext.style.display = "none";
     }
 }
