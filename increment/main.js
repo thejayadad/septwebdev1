@@ -1,16 +1,17 @@
-let count = 0;
 
-function incrementCounter() {
+let count = 0
+function incrementCounter(){
     count++;
-    updateCounterDisplay();
+    updateCounter()
+}
+function decrementCounter(){
+    count --;
+    updateCounter()
 }
 
-function decrementCounter() {
-    count--;
-    updateCounterDisplay();
-}
 
-function updateCounterDisplay() {
-    const counterElement = document.getElementById("counter");
-    counterElement.textContent = count;
+
+function updateCounter(){
+    const counter = document.getElementById('counter')
+    counter.textContent = count;
 }
