@@ -31,8 +31,8 @@ h2 {
     font-weight: bold;
 }
 
-#increment-button,
-#decrement-button {
+#increment,
+#decrement {
     background-color: lightsteelblue;
     color: white;
     border: none;
