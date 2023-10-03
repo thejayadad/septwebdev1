@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+h2{
+    font-size: 12px;
+}
+
+#counter-container {
+    width: 80%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#counter {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#increment-button {
+    background-color: lightsteelblue;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+}
