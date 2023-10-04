@@ -6,13 +6,12 @@ const data = [
 
 ];
 
-const table = document.getElementById("myTable");
-const tbody = table.getElementsByTagName("tbody")[0];
-
+const table = document.getElementById('myTable')
+const tbody = table.getElementsByTagName("tbody")[0]
 data.forEach(item => {
-    const row = tbody.insertRow();
+    const row = tbody.insertRow()
     Object.values(item).forEach(value => {
         const cell = row.insertCell();
-        cell.appendChild(document.createTextNode(value));
-    });
-});
+        cell.appendChild(document.createTextNode(value))
+    })
+})
