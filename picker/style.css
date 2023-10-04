@@ -17,12 +17,11 @@ h1{
     font-size: 15px;
 }
 
+
 .container{
     text-align: center;
 }
-
-
-input[type="color"] {
+input[type="color"]{
     width: 40px;
     height: 40px;
 }
