@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    background-color: black;
+}
+h2{
+    font-family: monospace;
+    font-size: 12px;
+}
+
+.card{
+    width: 100x;
+    height: 150px;
+    background-color: #000;
+    position: relative;
+    box-shadow: 0px 0px 2px #000;
+    overflow: hidden;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 130%;
+    width: 160%;
+    transform: translate(-50%, -50%) rotate(-280deg);
+    background-image: conic-gradient(#ff00bb 0deg, #dd00bb 90deg, transparent 130deg, transparent 180deg, #4530ff 180deg, #4530ff 270deg, transparent 310deg, transparent 360deg);
+    transition: transform 2s;
+
+}
+
+.card:hover::before{
+    transform: translate(-50%, -50%) rotate(-280deg);
+}
+.card::after{
+    content: "Thanks for watching";
+    color: #ddd;
+    position: absolute;
+    background-color: #000;
+    display: flex;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
